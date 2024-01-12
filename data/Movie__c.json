@@ -1,0 +1,34 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Movie__c",
+                "referenceId": "Movie__cRef1"
+            },
+            "Date_Premiere__c": "2010-01-01",
+            "Image_Preview__c": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2M2uJ1UF4GONvz_S4XUS5NcIasH3U2vIbnXWMyKhRvrha7cYhBdKtkWjlA08CGjlx0ng&usqp=CAU",
+            "Languages__c": "Spanish;English;Portuguese",
+            "Name": "Fast and Furious 1"
+        },
+        {
+            "attributes": {
+                "type": "Movie__c",
+                "referenceId": "Movie__cRef2"
+            },
+            "Date_Premiere__c": "2015-01-14",
+            "Image_Preview__c": "https://static.wikia.nocookie.net/doblaje/images/c/ce/Poster1_304.jpg/revision/latest?cb=20160913194930&path-prefix=es",
+            "Languages__c": "English;Portuguese",
+            "Name": "Friday 13th"
+        },
+        {
+            "attributes": {
+                "type": "Movie__c",
+                "referenceId": "Movie__cRef3"
+            },
+            "Date_Premiere__c": "2022-06-23",
+            "Image_Preview__c": "https://es.web.img3.acsta.net/pictures/22/06/16/12/54/0504030.jpg",
+            "Languages__c": "Spanish;English",
+            "Name": "El gato con botas"
+        }
+    ]
+}
