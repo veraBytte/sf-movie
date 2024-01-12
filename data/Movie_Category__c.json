@@ -1,0 +1,46 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Movie_Category__c",
+                "referenceId": "Movie_Category__cRef1"
+            },
+            "Audience__c": "+18",
+            "Average_Duration__c": "01:00:00.000Z",
+            "Description__c": "Esta categoría incluye todas las pelicuals relacionadas con el cine de terror",
+            "Family_friendly__c": false,
+            "Name": "Terror",
+            "Number_Movies__c": 12,
+            "Preview_Image__c": "https://i.blogs.es/b6837d/halloween/1366_2000.jpg",
+            "Tags__c": "Violent;bloody"
+        },
+        {
+            "attributes": {
+                "type": "Movie_Category__c",
+                "referenceId": "Movie_Category__cRef2"
+            },
+            "Audience__c": "+6",
+            "Average_Duration__c": "01:00:00.000Z",
+            "Description__c": "Estas categoría recopila las películas de tramas amorosas y romances juveniles.",
+            "Family_friendly__c": true,
+            "Name": "Romanticas",
+            "Number_Movies__c": 33,
+            "Preview_Image__c": "https://media.vogue.es/photos/62f5017be19ae28399a5721e/2:3/w_2560%2Cc_limit/PH_Unit_00900_R4_CROP.jpg",
+            "Tags__c": "Funny"
+        },
+        {
+            "attributes": {
+                "type": "Movie_Category__c",
+                "referenceId": "Movie_Category__cRef3"
+            },
+            "Audience__c": "+16",
+            "Average_Duration__c": "01:00:00.000Z",
+            "Description__c": "Esta categoría reúne eventos de accion y dramas de peliculas increíbles",
+            "Family_friendly__c": true,
+            "Name": "Accion",
+            "Number_Movies__c": 22,
+            "Preview_Image__c": "https://hips.hearstapps.com/hmg-prod/images/chris-hemsworth-tyler-rake-2-netflix-646349b4c5e9f.jpeg",
+            "Tags__c": "Violent;Funny;Serious"
+        }
+    ]
+}

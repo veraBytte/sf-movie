@@ -1,0 +1,8 @@
+[
+    {
+        "sobject": "Movie_Category__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files" : ["Movie_Category__c.json"]
+    }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>My_Movies</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Movie_Category__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Movie_Category__c.Family_friendly__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Movie_Category__c.Image__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Movie_Category__c.Preview_Image__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Movie_Category__c.Tags__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Movie App</label>
+    <tabSettings>
+        <tab>Movie_Category__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>
