@@ -1,0 +1,9 @@
+<template>
+    <template if:true={movies.data}>
+        <template for:each={movies.data} for:item="movie">
+            <div key={movie.Name}>
+                <c-premiere movie={movie} class="slds-col sleds-var-m-around_small"></c-premiere>
+            </div>
+        </template>
+    </template>
+</template>

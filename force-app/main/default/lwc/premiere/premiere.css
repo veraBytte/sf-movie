@@ -1,0 +1,10 @@
+:host{
+    max-width: 350px;
+    display: block;
+}
+
+.text{
+    text-align: center;
+    font-size: fontSize-5;
+    color: #e6ab0b;
+}
