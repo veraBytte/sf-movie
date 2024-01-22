@@ -8,10 +8,16 @@
             <lightning-badge class="text" label={movie.Rating__c}></lightning-badge>
         </div>
         <!-- Body Start -->
-        <lightning-button label="View Details" slot="actions"></lightning-button>
+        <lightning-button label="View Details" slot="actions" onclick={navigateToRecordViewPage}></lightning-button>
         <img class="premiere movie slds-align_absolute-center slds-size_1-of-2 slds-var-m-bottom_medium" src={movie.Image_Preview__c} alt={movie.Name}>
         <p class="text slds-var-p-horizontal_small slds-align_absolute-center">{movie.Description__c}</p>
         <!-- Body End -->
+        <template lwc:if={isGoodMovie}>
+            <lightning-icon icon-name="utility:warranty_term" size="small" class="slds-align_absolute-center"></lightning-icon>
+        </template>
+        <template lwc:else>
+            <lightning-icon icon-name="utility:sentiment_negative" size="small" class="slds-align_absolute-center"></lightning-icon>
+        </template>
     </lightning-card>
 </template>
 
