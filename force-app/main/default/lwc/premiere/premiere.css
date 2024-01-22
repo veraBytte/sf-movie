@@ -7,4 +7,17 @@
     text-align: center;
     font-size: fontSize-5;
     color: #e6ab0b;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.premiere{
+    aspect-ratio: 4 / 3;
+    height: 200px;
+}
+
+.card{
+    width: 325px;
 }

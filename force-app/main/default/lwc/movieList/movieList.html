@@ -1,9 +1,13 @@
 <template>
-    <template if:true={movies.data}>
-        <template for:each={movies.data} for:item="movie">
-            <div key={movie.Name}>
-                <c-premiere movie={movie} class="slds-col sleds-var-m-around_small"></c-premiere>
-            </div>
-        </template>
-    </template>
+    <div class="slds-align_absolute-center list-container">
+        <div class="movie-list-grid slds-grid slds-gutters slds-wrap slds-grid_align-spread">
+            <template if:true={movies.data}>
+                <template for:each={movies.data} for:item="movie">
+                    <div key={movie.Name}>
+                        <c-premiere movie={movie} class="slds-col sleds-var-m-around_small"></c-premiere>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </div>
 </template>

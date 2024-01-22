@@ -1,0 +1,7 @@
+.list-container{
+    max-width: 1100px;
+}
+
+.movie-list-grid{
+    gap: 32px;
+}
