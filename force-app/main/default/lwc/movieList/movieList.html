@@ -1,4 +1,7 @@
 <template>
+    <div class="slds-align_absolute-center">
+        <lightning-input onchange={handleInputChange} type="text" label="Enter some text"></lightning-input>
+    </div>
     <div class="slds-align_absolute-center list-container">
         <div class="movie-list-grid slds-grid slds-gutters slds-wrap slds-grid_align-spread">
             <template if:true={movies.data}>

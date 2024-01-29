@@ -1,11 +1,19 @@
 import { LightningElement, wire } from 'lwc';
-import getAllMovies from '@salesforce/apex/MovieListService.getAllMovies';
+import getFilterMovies from '@salesforce/apex/MovieListService.getFilterMovies';
 
 export default class MovieList extends LightningElement {
+    searchText;
 
-    @wire(getAllMovies)
+    @wire(getFilterMovies,{ searchText: '$searchText'})
     movies;
 
     //movies.data -> Contains the data returned from the Apex method
     //movies.error -> Contains the error returned from the Apex method
+
+    handleInputChange(e){
+        const searchKey = e.target.value;
+        if(searchKey.length >= 2 || searchKey.length === 0){
+            this.searchText = searchKey;
+        }
+    }
 }
